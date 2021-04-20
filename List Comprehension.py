@@ -18,3 +18,13 @@ print(newlist)
 
 newlist = [x for x in fruits if x != "apple"]
 print(newlist)
+
+# Getting A Little Advance
+name = "Name"
+a = [x for x in name]
+b = [y for y in name]
+print(a + b)
+
+word = "Word"
+a = [x*2 for x in word]
+print(a)
