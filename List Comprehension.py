@@ -15,3 +15,6 @@ print(newlist)
 
 newlist = [x for x in fruits]
 print(newlist)
+
+newlist = [x for x in fruits if x != "apple"]
+print(newlist)
