@@ -10,3 +10,5 @@ class Person:
 
 x = Person("Leonardo", "Di Vinci")
 x.printname()
+y = Person("Adolf", "Hitler")
+y.printname()
