@@ -10,8 +10,9 @@ class Person:
 
 # Use The Person Class To Create An Object, And Then Execute The PrintName Method:
 
-x = Person("Leonardo", "Di Vinci")
+x = Person("leonardo", "di vinci")
 x.printname()
+x.camelcase()
 y = Person("Adolf", "Hitler")
 y.printname()
 z = Person("Kevin", "Mitnick")
