@@ -5,6 +5,8 @@ class Person:
 
     def printname(self):
         print(self.firstname, self.lastname)
+    def camelcase(self):
+        print(self.firstname.title(), self.lastname.title())
 
 # Use The Person Class To Create An Object, And Then Execute The PrintName Method:
 
