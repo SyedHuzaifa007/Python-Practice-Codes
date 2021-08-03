@@ -1,3 +1,5 @@
+# Example-1
+
 condition = input("What is the condition of the donut? ")
 filling = input("What is the filling of the donut? ")
 
@@ -26,3 +28,10 @@ else:
 
 
 print("The price of the donut is $" + str(donut_price)) 
+
+# Example-2
+
+SAT = input("What is the SAT score? ")
+GPA = input("What is the GPA? ")
+alumni = input("Are your parents an alumni? ")
+
