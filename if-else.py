@@ -35,3 +35,10 @@ SAT = input("What is the SAT score? ")
 GPA = input("What is the GPA? ")
 alumni = input("Are your parents an alumni? ")
 
+avg = 10
+score = 2
+if SAT >= avg and GPA >= score:
+    if alumni == "yes":
+        print("You are eligible for the full-time program")
+else:
+    print("You are not eligible for the full-time program")
