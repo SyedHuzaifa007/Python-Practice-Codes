@@ -16,3 +16,6 @@ print(fruits[-2])
 print(fruits[-3])
 print(fruits[-4])
 print(fruits[-5])
+
+cities.append("San Fransisco")
+print(cities)
