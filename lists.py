@@ -19,3 +19,5 @@ print(fruits[-5])
 
 cities.append("San Fransisco")
 print(cities)
+cities.pop(-1)
+print(cities)
