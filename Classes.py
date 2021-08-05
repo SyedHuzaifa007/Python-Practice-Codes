@@ -26,3 +26,9 @@ z.camelcase()
 a = Person("elon", "musk")
 a.printname()
 a.camelcase()
+
+# Example-2
+
+class Patient():
+    def __init__(self, lname):
+        self.lname = lname  
