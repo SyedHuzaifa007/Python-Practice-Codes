@@ -32,3 +32,6 @@ a.camelcase()
 class Patient():
     def __init__(self, lname):
         self.lname = lname  
+
+p_1 = Patient("Doe")
+print(p_1.lname)
