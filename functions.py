@@ -8,4 +8,6 @@ add_numbers(7243943943983,89384938409384328)
 # Example-2
 
 def multiply(a,b):
-    
+    print(a * b)
+
+multiply(7243943943983,89384938409384328)
