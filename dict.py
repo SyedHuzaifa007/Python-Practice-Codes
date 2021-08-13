@@ -6,3 +6,6 @@ user_info = {
      "phone":12345678910,
      "address":"somewhere on the Earth"
 }
+
+print(user_info["name"])
+print(user_info["phone"])
