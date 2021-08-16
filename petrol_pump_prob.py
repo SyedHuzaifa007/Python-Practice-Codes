@@ -35,7 +35,7 @@ print("Welcome To Pak Petrol Pump, Hope You Enjoying The Day!")
 ticket_number_verify = int(input("Enter Your Car Ticket Number Issued To You: "))
 if ticket_number_verify == ticket_number:
     total_amount = quantity * fuel_price
-    print(f"Your Ticket Number Is Confirmed, Please Pay The Total Amount of: ${total_amount})")
+    print(f"Your Ticket Number Is Confirmed, Please Pay The Total Amount of: ${total_amount}")
     biometric_1 = input("Are You Sure To Scan Your Fingerprint For Biometric Verification (Y/N): ")
     if biometric_1 == "Y" or "y":
         print("Place Your Finger On Fingerprint Scanner")
@@ -51,17 +51,17 @@ if ticket_number_verify == ticket_number:
             print("Your Reciept Will Be Printed In 5 Seconds")
             time.sleep(5)
             print("Reciept Printed")
-            reciept = print("_______________________PAYMENT RECIEPT______________________\n|"
-                            f"|Customer Name: {user_name}__________Car Name: {car_name}\n|"
-                            f"|Car Model: {car_model}__________Car Number: {car_number}\n           |"
-                            f"|Ticket Number: {ticket_number}\n                                     |"
-                            f"|Price Of Petrol: ${fuel_price}\L\n                                   |"
-                            f"|Quantity Of Petrol: {quantity} Litres\n                              |"
-                            f"|Total Amount: ${total_amount}\n                                      |"
-                            f"|Payment Method: Cash\n                                               |"
-                            f"|Payment Date: {datetime.datetime.now()}\n                            |"
-                            "_____________________________________________________________\n|"
-                            "|Thanks For Visiting Pak Petrol Pump. Enjoy Your Day!|")
+            reciept = print("_______________________PAYMENT RECIEPT______________________\n"
+                            f"|Customer Name: {user_name}__________Car Name: {car_name}\n"
+                            f"|Car Model: {car_model}__________Car Number: {car_number}\n"
+                            f"|Ticket Number: {ticket_number}\n"
+                            f"|Price Of Petrol: ${fuel_price}\L\n"
+                            f"|Quantity Of Petrol: {quantity} Litres\n"
+                            f"|Total Amount: ${total_amount}\n"
+                            f"|Payment Method: Cash\n"
+                            f"|Payment Date: {datetime.datetime.now()}\n"
+                            "_____________________________________________________________\n"
+                            "|Thanks For Visiting Pak Petrol Pump. Enjoy Your Day!")
             print(reciept)
 elif ticket_number_verify != ticket_number:
     print("Sorry! Your Ticket Number Is Incorrect, We Couldn't Verify You")
