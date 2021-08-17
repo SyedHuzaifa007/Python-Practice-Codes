@@ -9,5 +9,4 @@ branch = input("Enter Student Branch: ")
 year = input("Enter Student Year: ")
 
 with open("student_database.txt", "a") as f:
-    f.write("\n" + str(serail_no) + " " + name + " " + age + " " + roll_no + " " + branch + " " + year)
-    
+    f.write(f"Student Name: {name}")
