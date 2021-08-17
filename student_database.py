@@ -1,7 +1,6 @@
 # Taking Student Information 
-import random
 
-serail_no = random.randint(1,1000)
+serail_no = input("Enter Serial Number: ")
 name = input("Enter Student Name: ")
 age = input("Enter Student Age: ")
 roll_no = input("Enter Student Roll Number: ")
