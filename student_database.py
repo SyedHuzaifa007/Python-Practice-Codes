@@ -10,3 +10,9 @@ year = input("Enter Student Year: ")
 
 with open("student_database.txt", "a") as f:
     f.write(f"Student Name: {name}")
+    f.write(f"\nStudent Age: {age}")
+    f.write(f"\nStudent Roll Number: {roll_no}")
+    f.write(f"\nStudent Branch: {branch}")
+    f.write(f"\nStudent Year: {year}")
+    f.write(f"\n\n")
+    
