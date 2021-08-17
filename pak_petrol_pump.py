@@ -52,17 +52,19 @@ if ticket_number_verify == ticket_number:
             print("Your Reciept Will Be Printed In 5 Seconds")
             time.sleep(5)
             print("Reciept Printed")
-            reciept = print("_______________________PAYMENT RECIEPT______________________\n"
-                            f"|Customer Name: {user_name}__________Car Name: {car_name}\n"
-                            f"|Car Model: {car_model}__Car Make: {car_make}__Car Number: {car_number}\n"
-                            f"|Ticket Number: {ticket_number}\n"
-                            f"|Price Of Petrol: ${fuel_price}\L\n"
-                            f"|Quantity Of Petrol: {quantity} Litres\n"
-                            f"|Total Amount: ${total_amount}\n"
-                            f"|Payment Method: Cash\n"
-                            f"|Payment Date: {datetime.datetime.now()}\n"
-                            "_____________________________________________________________\n"
-                            "|Thanks For Visiting Pak Petrol Pump. Enjoy Your Day!")
+            reciept = ("_______________________PAYMENT RECIEPT______________________\n"
+                        f"|Customer Name: {user_name}__________Car Name: {car_name}\n"
+                        f"|Car Model: {car_model}__Car Make: {car_make}__Car Number: {car_number}\n"
+                        f"|Ticket Number: {ticket_number}\n"
+                        f"|Price Of Petrol: ${fuel_price}\L\n"
+                        f"|Quantity Of Petrol: {quantity} Litres\n"
+                        f"|Total Amount: ${total_amount}\n"
+                        f"|Payment Method: Cash\n"
+                        f"|Payment Date: {datetime.datetime.now()}\n"
+                        "_____________________________________________________________\n"
+                        "|Thanks For Visiting Pak Petrol Pump. Enjoy Your Day!")
+            with open("reciept.txt", "w") as reciept_file:
+                reciept_file.write(reciept)
             print(reciept)
 elif ticket_number_verify != ticket_number:
     print("Sorry! Your Ticket Number Is Incorrect, We Couldn't Verify You")
