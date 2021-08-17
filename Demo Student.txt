@@ -1,6 +1,0 @@
-Serial Number: 131Student Name: Demo Student
-Student Age: 00
-Student Roll Number: 0000
-Student Branch: Unknown
-Student Year: 0000
-

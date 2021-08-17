@@ -10,7 +10,7 @@ year = input("Enter Student Year: ")
 
 with open(f"{name}.txt", "a") as f:
     f.write(f"Serial Number: {serail_no}")
-    f.write(f"Student Name: {name}")
+    f.write(f"\nStudent Name: {name}")
     f.write(f"\nStudent Age: {age}")
     f.write(f"\nStudent Roll Number: {roll_no}")
     f.write(f"\nStudent Branch: {branch}")
