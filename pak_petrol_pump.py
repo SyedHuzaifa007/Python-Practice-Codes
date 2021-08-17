@@ -6,6 +6,7 @@ import random
 
 user_name = input("Enter Your Name: ")
 car_name = input("Enter Your Car Name: ")
+car_make = input("Enter Your Car Make: ")
 car_model = input("Enter Your Car Model: ")
 car_number = input("Enter Your Car Number: ")
 biometric = input("Are You Sure To Scan Your Fingerprint For Biometric Verification (Y/N): ")
@@ -18,7 +19,7 @@ elif biometric != "Y" or "y":
     print("Sorry! We Can't Refule Your Car")
     quit
 
-# Fuling Machine 
+# Fueling Machine 
 
 fuel_price = 100
 print(f"Price of Perol is ${fuel_price}/L Today")
@@ -46,14 +47,14 @@ if ticket_number_verify == ticket_number:
     confirmed = input("Press 'P' On The Screen After You Pay: ")
     time.sleep(3)
     if confirmed == "P" or "p":
-        print_reciept = (input("Your Amount Has Been Paid Successfully, Please Press '1' On The Screen To Print Reciept: "))
+        print_reciept = (input("Your Amount Has Been Paid Successfully, Please Press '1' On The Screen To Generate Reciept: "))
         if print_reciept == "1":
             print("Your Reciept Will Be Printed In 5 Seconds")
             time.sleep(5)
             print("Reciept Printed")
             reciept = print("_______________________PAYMENT RECIEPT______________________\n"
                             f"|Customer Name: {user_name}__________Car Name: {car_name}\n"
-                            f"|Car Model: {car_model}__________Car Number: {car_number}\n"
+                            f"|Car Model: {car_model}__Car Make: {car_make}__Car Number: {car_number}\n"
                             f"|Ticket Number: {ticket_number}\n"
                             f"|Price Of Petrol: ${fuel_price}\L\n"
                             f"|Quantity Of Petrol: {quantity} Litres\n"
