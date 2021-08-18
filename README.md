@@ -4,4 +4,5 @@ This repository contains all the practice codes for Python programming language.
 - This repository contains the examples of basic Python.
 - This repository contains the examples of advanced Python.
 - This repoitory is open source.
+- Anyone can contribute to this repository.
 - Any suggestions or improvements are welcome.
