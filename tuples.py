@@ -1,4 +1,6 @@
 # Tuples Are Used To Store Data. Tuples Are Immutable.
 
-fruit = ("apple", "banana", "cherry")
-print(fruit)
+fruits = ("apple", "banana", "cherry")
+print(fruits)
+
+# Tuples Are Faster Than Lists.
