@@ -7,3 +7,5 @@ print(fruits)
 # Tuples Are Immutable.
 
 # del fruits[2]   Executing This Line Will Throw An Error.
+
+# We Can't Change The Values Of A Tuple.
