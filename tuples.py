@@ -5,3 +5,5 @@ print(fruits)
 
 # Tuples Are Faster Than Lists.
 # Tuples Are Immutable.
+
+# del fruits[2]   Executing This Line Will Throw An Error.
