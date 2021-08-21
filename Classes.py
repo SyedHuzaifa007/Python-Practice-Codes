@@ -44,4 +44,7 @@ class Student():
 
     def print_email(self):
         print(self.email)
+
+    def fullname(self):
+        print(self.fname, self.lname)
         
