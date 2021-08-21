@@ -41,4 +41,7 @@ class Student():
         self.fname = fname
         self.lname = lname
         self.email = fname + "." + lname + "@gmail.com"
+
+    def print_email(self):
+        print(self.email)
         
