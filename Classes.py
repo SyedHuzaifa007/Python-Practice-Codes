@@ -35,3 +35,5 @@ class Patient():
 
 p_1 = Patient("Doe")
 print(p_1.lname)
+
+class Student():
