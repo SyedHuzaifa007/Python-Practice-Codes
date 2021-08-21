@@ -47,4 +47,6 @@ class Student():
 
     def fullname(self):
         print(self.fname, self.lname)
-        
+
+    def print_fullname(self):
+        print(self.fname, self.lname)
