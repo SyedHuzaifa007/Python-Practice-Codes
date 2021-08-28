@@ -1,6 +1,6 @@
 # If Elif Else Is Used To Concatenate Multiple Conditions
 
-# Example-
+# Example-1
 if 1 == 1:
     print('1 == 1')
 elif 1 == 2:
@@ -8,6 +8,7 @@ elif 1 == 2:
 else:   
     print('1 != 1')
 
+# Example-2
 if 1 == 2:
     print('1 == 2')
 elif 1 == 1:
